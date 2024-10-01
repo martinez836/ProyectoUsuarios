@@ -1,0 +1,11 @@
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\bin\Debug\RegistroUsuario.exe.config
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\bin\Debug\RegistroUsuario.exe
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\bin\Debug\RegistroUsuario.pdb
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.csprojResolveAssemblyReference.cache
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.FrmMenu.resources
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.FrmUsuario.resources
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.MainForm.resources
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.csproj.GenerateResource.Cache
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.exe
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\obj\Debug\RegistroUsuario.pdb
+C:\Users\Juanc\OneDrive\Documentos\SharpDevelop Projects\RegistroUsuario\RegistroUsuario\bin\Debug\Usuario.txt
