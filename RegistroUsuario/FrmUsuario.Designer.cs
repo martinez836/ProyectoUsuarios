@@ -204,6 +204,7 @@ namespace RegistroUsuario
 			this.BtnEditar.Text = "Editar";
 			this.BtnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.BtnEditar.UseVisualStyleBackColor = true;
+			this.BtnEditar.Click += new System.EventHandler(this.BtnEditarClick);
 			// 
 			// DgvUsuario
 			// 
@@ -220,6 +221,7 @@ namespace RegistroUsuario
 			this.DgvUsuario.ReadOnly = true;
 			this.DgvUsuario.Size = new System.Drawing.Size(510, 211);
 			this.DgvUsuario.TabIndex = 12;
+			this.DgvUsuario.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvUsuarioCellDoubleClick);
 			// 
 			// ID
 			// 

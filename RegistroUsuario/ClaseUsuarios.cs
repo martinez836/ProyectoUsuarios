@@ -37,6 +37,14 @@ namespace RegistroUsuario
 			string[] linea = File.ReadAllLines(ruta);
 			return linea;
 		}
+		public static bool Func_EscribirArchivo(string[] arreglo)
+		{
+			
+		    File.WriteAllLines(ruta,arreglo);
+			return true;
+		}
+		
+		
 		public static string[] Func_DatosUsuario(string user)
 		{
 			string[] usuario = null;
@@ -76,6 +84,54 @@ namespace RegistroUsuario
 			}
 			
 			return true;
+		}
+		
+		//Busca un id en el archivo de texto
+		//parametro id
+		//retorna true si son iguales
+		
+		public static bool Func_BuscarIdExiste(string id)
+		{
+			bool rpta = false;
+			string[] usuario = null;
+			string[] linea = Func_LeerArchivo();
+			//recorro todas las lineas del txt
+			for (int i = 0; i < linea.Length; i++) 
+			{
+				//split con comas
+				usuario=linea[i].Split(',');
+				//0 id 1 usuario 2 contraseña
+				if (usuario[0]==id)
+				{
+					//retorno true
+					rpta = true;
+					break;
+				}	
+			}
+			
+			return rpta;
+		}
+		
+		public static string[] Func_EditarUsuario(string id, string user,string contraseña)
+		{
+			string[] usuario = null;
+			string[] linea = Func_LeerArchivo();
+			//recorro todas las lineas del txt
+			for (int i = 0; i < linea.Length; i++) 
+			{
+				//split con comas
+				usuario=linea[i].Split(',');
+				//0 id 1 usuario 2 contraseña
+				if (usuario[0]==id)
+				{
+					//quito la linea y agrego la nueva
+					linea[i]=id+","+user+","+contraseña;
+					break;
+					
+				}	
+			}
+			
+			return linea;
 		}
 	}
 }
